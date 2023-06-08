@@ -1,6 +1,6 @@
-import { IProducts } from "../../types";
+import { IProducts, IProductsProps } from "../../types";
 
-function Products({ productData }: IProducts) {
+function Products({ productData }: IProductsProps) {
     return (
         <section className="container-produk">
             {productData.length > 0 ? (
