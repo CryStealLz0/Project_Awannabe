@@ -1,0 +1,39 @@
+{
+    "cards": [
+        {
+            "id": "1",
+            "headline": "Card kintil",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos nisi cum assumenda fugit unde soluta error nesciunt natus impedit!"
+        },
+        {
+            "id": "2",
+            "headline": "Card 2",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos nisi cum assumenda fugit unde soluta error nesciunt natus impedit!"
+        },
+        {
+            "id": "3",
+            "headline": "Card 3",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos nisi cum assumenda fugit unde soluta error nesciunt natus impedit!"
+        }
+    ],
+    "products": [
+        {
+            "id": "1",
+            "name": "Card 3",
+            "description": "Macan Tutul",
+            "price": 100000
+        },
+        {
+            "id": "2",
+            "name": "Card 3",
+            "description": "Macan Kumbang",
+            "price": 100000
+        },
+        {
+            "id": "3",
+            "name": "Card 3",
+            "description": "Raja Macan",
+            "price": 100000
+        }
+    ]
+}

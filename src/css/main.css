@@ -45,8 +45,7 @@ header .navbar .logo a {
   font-size: 1.7rem;
   font-weight: bold;
   font-variant: small-caps;
-  color: transparent;
-  background-image: linear-gradient(45deg, red, white, blue);
+  color: white;
   filter: drop-shadow(2px 2px 3px black);
   -webkit-background-clip: text;
           background-clip: text;
@@ -70,7 +69,6 @@ header .navbar li::before {
   height: 4px;
   bottom: 0;
   left: 0;
-  background: linear-gradient(45deg, blue, white, red);
   border-radius: 5px;
   transform: scaleY(0) scaleX(0);
   box-shadow: 0px 0px 3px 1px black;
@@ -80,16 +78,14 @@ header .navbar li::before {
 header .navbar li a {
   position: relative;
   text-decoration: none;
-  color: transparent;
+  color: white;
   font-size: 1rem;
   transition: all 0.3s ease-in;
   padding: 0 1rem;
   font-weight: bold;
-  background-image: linear-gradient(45deg, red, white, blue);
   filter: drop-shadow(1px 1px 2px black);
   -webkit-background-clip: text;
           background-clip: text;
-  color: transparent;
 }
 header .navbar .links {
   display: flex;
@@ -458,7 +454,7 @@ section#hero h1 {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   background-color: #111;
   box-sizing: border-box;
   padding: 10rem 0rem;
@@ -516,7 +512,7 @@ section#hero h1 {
   width: 500px;
   height: 70px;
   transform: translate(-50%, -50%);
-  background-color: blue;
+  background-color: white;
   filter: blur(20px);
   animation: animate2 6s linear infinite;
 }
@@ -599,4 +595,139 @@ section#hero h1 {
 }
 .container-produk .produk .content .details .dataBtn button:hover {
   background: rgba(0, 255, 0, 0.6);
+}
+
+.kotak {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.kotak .kotak-card {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 300px;
+}
+.kotak .kotak-card .card {
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 200px;
+}
+.kotak .kotak-card .card span {
+  height: 150px;
+  width: 150px;
+  background: white;
+  position: absolute;
+  transform: rotate(45deg);
+  filter: blur(5px);
+  opacity: 0.5;
+  transition: all 1s ease-in-out;
+}
+.kotak .kotak-card .card span:nth-child(2) {
+  top: 0;
+  left: 0;
+}
+.kotak .kotak-card .card span:nth-child(3) {
+  top: 0;
+  right: 0;
+}
+.kotak .kotak-card .card span:nth-child(4) {
+  bottom: 0;
+  left: 0;
+}
+.kotak .kotak-card .card span:nth-child(5) {
+  bottom: 0;
+  right: 0;
+}
+.kotak .kotak-card .card:hover span:nth-child(2) {
+  top: 0;
+  left: 0;
+  height: 300px;
+  width: 2px;
+  background: aqua;
+  transform: rotate(0deg);
+  opacity: 1;
+  filter: blur(1px);
+}
+.kotak .kotak-card .card:hover span:nth-child(3) {
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 200px;
+  background: aqua;
+  transform: rotate(0deg);
+  opacity: 1;
+  filter: blur(1px);
+}
+.kotak .kotak-card .card:hover span:nth-child(4) {
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 200px;
+  background: aqua;
+  transform: rotate(0deg);
+  opacity: 1;
+  filter: blur(1px);
+}
+.kotak .kotak-card .card:hover span:nth-child(5) {
+  bottom: 0;
+  right: 0;
+  height: 300px;
+  width: 2px;
+  background: aqua;
+  transform: rotate(0deg);
+  opacity: 1;
+  filter: blur(1px);
+}
+.kotak .kotak-isi {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  height: 325px;
+  border-right: 5px solid #555;
+  color: white;
+  overflow: auto;
+}
+.kotak .kotak-isi::-webkit-scrollbar {
+  height: 6px;
+}
+.kotak .kotak-isi::-webkit-scrollbar-track {
+  background: #666;
+}
+.kotak .kotak-isi::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5019607843);
+  border-radius: 8px;
+}
+.kotak .kotak-isi .kotak-card-isi {
+  width: 150px;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+  color: black;
+}
+.kotak .kotak-isi .kotak-card-isi .card-isi {
+  width: 250px;
+  height: 280px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 15px;
+  box-shadow: -25px 0px 15px -20px black;
+  transform: translateY(0px);
+  transition: all 0.2s ease-in-out;
+}
+.kotak .kotak-isi .kotak-card-isi:hover {
+  width: 240px;
+  transform: rotate(5deg);
+}
+.kotak .kotak-isi .kotak-card-isi:hover .card-isi {
+  opacity: 1;
+  transform: translateY(-10px);
 }/*# sourceMappingURL=main.css.map */
