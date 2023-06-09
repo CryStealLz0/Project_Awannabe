@@ -1,6 +1,7 @@
 export interface IBaseData {
     categories: ICategory[];
     products: IProducts[];
+    judul: IJudul[];
 }
 
 export interface ICategory {
@@ -16,6 +17,12 @@ export interface IProducts {
     price: number;
 }
 
+export interface IJudul {
+    id: string;
+    judul: string;
+    isi: string;
+}
+
 export interface ICategoryProps {
     categoryData: ICategory[];
 }
@@ -23,3 +30,8 @@ export interface ICategoryProps {
 export interface IProductsProps {
     productData: IProducts[];
 }
+
+export interface IJudulProps {
+    judulData: IJudul[];
+}
+

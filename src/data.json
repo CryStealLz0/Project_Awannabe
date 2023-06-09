@@ -2,7 +2,7 @@
     "categories": [
         {
             "id": "1",
-            "headline": "Card kintil",
+            "headline": "Card 1",
             "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos nisi cum assumenda fugit unde soluta error nesciunt natus impedit!"
         },
         {
@@ -34,6 +34,24 @@
             "name": "Card 3",
             "description": "Raja Macan",
             "price": 100000
+        }
+    ],
+
+    "judul": [
+        {
+            "id": "1",
+            "judul": "Sword",
+            "isi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor justo viverra, eleifend sem a, elementum justo. Vivamus eros magna, vulputate quis suscipit vel, condimentum. "
+        },
+        {
+            "id": "2",
+            "judul": "Cyber",
+            "isi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor justo viverra, eleifend sem a, elementum justo. Vivamus eros magna, vulputate quis suscipit vel, condimentum. "
+        },
+        {
+            "id": "3",
+            "judul": "Athena",
+            "isi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor justo viverra, eleifend sem a, elementum justo. Vivamus eros magna, vulputate quis suscipit vel, condimentum. "
         }
     ]
 }
