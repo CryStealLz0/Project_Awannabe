@@ -14,10 +14,7 @@ export default function Home() {
             <Welcoming />
             <Categories categoryData={responses.categories} />
             <Products productData={responses.products} />
-
-            <Judul judulData={responses.judul}/>
-
-           
+            <Judul judulData={responses.judul} />
 
             <div className="kotak">
                 <div className="kotak-card">
@@ -27,6 +24,94 @@ export default function Home() {
                         <span></span>
                         <span></span>
                         <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div className="coba">
+                <div className="outer-menu">
+                    <button>
+                        <h5>Get Started</h5>
+                    </button>
+                    <span></span>
+                    <span></span>
+                    <div className="kotak-card-satu">
+                        <div className="card">
+                            <h2>hola 1</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Libero, modi.
+                            </p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div className="kotak-card-dua">
+                        <div className="card">
+                            <h2>hola 2</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Libero, modi.
+                            </p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div className="kotak-card-tiga">
+                        <div className="card">
+                            <h2>hola 3</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Libero, modi.
+                            </p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div className="kotak-card-empat">
+                        <div className="card">
+                            <h2>hola 4</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Libero, modi.
+                            </p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div className="kotak-card-lima">
+                        <div className="card">
+                            <h2>hola 3</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Libero, modi.
+                            </p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div className="kotak-card-enam">
+                        <div className="card">
+                            <h2>hola 3</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Libero, modi.
+                            </p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
                 </div>
             </div>

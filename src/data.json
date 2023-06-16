@@ -52,6 +52,36 @@
             "id": "3",
             "judul": "Athena",
             "isi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor justo viverra, eleifend sem a, elementum justo. Vivamus eros magna, vulputate quis suscipit vel, condimentum. "
+        },
+        {
+            "id": "4",
+            "judul": "Sword",
+            "isi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor justo viverra, eleifend sem a, elementum justo. Vivamus eros magna, vulputate quis suscipit vel, condimentum. "
+        },
+        {
+            "id": "5",
+            "judul": "Cyber",
+            "isi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor justo viverra, eleifend sem a, elementum justo. Vivamus eros magna, vulputate quis suscipit vel, condimentum. "
+        },
+        {
+            "id": "6",
+            "judul": "Athena",
+            "isi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor justo viverra, eleifend sem a, elementum justo. Vivamus eros magna, vulputate quis suscipit vel, condimentum. "
+        },
+        {
+            "id": "7",
+            "judul": "Sword",
+            "isi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor justo viverra, eleifend sem a, elementum justo. Vivamus eros magna, vulputate quis suscipit vel, condimentum. "
+        },
+        {
+            "id": "8",
+            "judul": "Cyber",
+            "isi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor justo viverra, eleifend sem a, elementum justo. Vivamus eros magna, vulputate quis suscipit vel, condimentum. "
+        },
+        {
+            "id": "9",
+            "judul": "Athena",
+            "isi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor justo viverra, eleifend sem a, elementum justo. Vivamus eros magna, vulputate quis suscipit vel, condimentum. "
         }
     ]
 }
