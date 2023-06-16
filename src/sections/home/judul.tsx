@@ -3,6 +3,15 @@ import { IJudul, IJudulProps } from "../../types";
 function judul({ judulData }: IJudulProps) {
     return (
         <div className="kotak">
+            <div className="kotak-card">
+                    <div className="card">
+                        <button>Read More</button>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
             <div className="kotak-isi">
                 {judulData.length > 0 ? (
                     judulData.map((productse: IJudul) => (
